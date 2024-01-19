@@ -22,17 +22,17 @@ Prompt -->
     Movelist Generator
 
 ## Training Data
-Kaggle Pokemon Dataset []
+Kaggle Pokemon [Dataset](https://www.kaggle.com/datasets/rounakbanik/pokemon?resource=download)
 
 ## Components
 
-### CharLSTM Pokemon Name Generator
+### CharLSTM Pokemon Name Generator - Implemented
 Trained on existing Pokemon names
 
-### Stable Diffusion Character generator
+### Stable Diffusion Character generator - Not Yet Implemented
 LoRA FineTuned on The Pokemon Dataset
 
-### LLM Move Generator
+### LLM Move Generator - Not Yet Implemented
 RAG using existing body of pokemon moves as Prompt
 
 Need to "sanity check" generations and pick the best
@@ -41,7 +41,7 @@ Multiple generations run through Ranking Classifier to pick the Best --> Ranking
 Dataset:
     scrape serebii for level and tm moves of pokemon in pokemon dataset
 
-### Vision + Text LMM Pokedex + Stats Generator
+### Vision + Text LMM Pokedex + Stats Generator - Not Yet Implemented
 LoRA FineTuned on The Pokemon Dataset
 Tune the model to take an instruction prompt and the
 generated character image to generate stats
