@@ -26,7 +26,7 @@ Kaggle Pokemon [Dataset](https://www.kaggle.com/datasets/rounakbanik/pokemon?res
 
 ## Components
 
-### CharLSTM Pokemon Name Generator - Implemented
+### CharLSTM Pokemon Name Generator - In Development
 Trained on existing Pokemon names
 
 ### Stable Diffusion Character generator - Not Yet Implemented
